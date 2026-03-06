@@ -21,7 +21,7 @@ The dashboards helps fraud analysis quickly detect patterns and investigate anom
 Dataset Name : Financial Fraud Transactions
 Total Records : 5 Million Transactions
   # Key fields
-    * Column and Description
+    # Column and Description
   * transaction_id        -     unique ID every transaction
   * timestamp             -     date and time transaction
   * sender_account        -     account initiating the transaction 
@@ -39,19 +39,19 @@ Total Records : 5 Million Transactions
   * ip_address            -     used during the transaction  
   * device_hash           -     unique encrypted identifier for the user's device
 # Tooltip and Technologies
-     * Tool and purpose
+    # Tool and purpose
 * Python(pandas)-data preprocessing
 * MySQL-data querying
 * Excel-initial analysis
 * Power BI-dashboard visulaization
 * GitHub-project version control
 # Data preparation
-  # Data cleaning
+    # Data cleaning
 * converted timestamp column to datetime format
 * remove duplicate transaction
 * standardized merchant categories
 * handled missing values
-  # Feature engineering
+      # Feature engineering
 * fraud transaction count
 * non-fraud transaction count
 * fraud rate percentage
@@ -59,7 +59,7 @@ Total Records : 5 Million Transactions
 * velocity risk score
 * hourly fraud distribution
 # Key performance indicator(KPIs)
-  # KPI value
+    # KPI value
 * total transaction-5M
 * fraud transaction-180k
 * fraud rate - 3.59%
@@ -71,22 +71,22 @@ These KPIs allow analysts to quickly understand fraud volume and risk levels.
     # Monthly fraud vs non-fraud trend
   * Chart type : Line chart
 * Shows how fraud transaction changes over time and helps identify seasonal fraud pattern.
-  # Fraud transaction by region
+    #Fraud transaction by region
   * Chart type : Map visualization
 * Display fraud transactions geographically to identify high-risk region.
-  # Fraud transaction by hour and risk level
+    #Fraud transaction by hour and risk level
   * Chart type : Heatmap
 * Shows hourly fraud distribution categorized by risk level.
   * High risk
   * Medium risk
   * Low risk
-  # Fraud accounts by amount
+    #Fraud accounts by amount
   * Chart type: Table
 * Identifies accounts responsible for the highest fraud amounts,helping fraud investigation prioritize cases.
-  # Fraud amount by velocity score
+    #Fraud amount by velocity score
   * Chart type : Scatter plot
 * Analyzes relationship between trasnaction amount and transaction frequency risk score.
-  # Frau vs non-fraud distribution
+    #Frau vs non-fraud distribution
   * Chart type : Donut chart
 * Shows proporation of fraudulent vs legitimate transactions.
 # Dashboard filter
