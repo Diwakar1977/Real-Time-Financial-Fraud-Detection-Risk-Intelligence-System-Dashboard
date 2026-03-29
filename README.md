@@ -3,12 +3,12 @@ A Scalable fraud analytics solution built on 5M+ transaction to enable real-time
 # 📌Project Overview 
 The financial fraud monitoring & risk intelligence dashboard is designed to analyze large scale financial transaction and identify fraudulent phatterns.The dashboard provides real-time insights into fraud treands high-risk accounts,merchant categories and transaction begaviors.
 Using interactive visulizations,the dashboard helps analyst detect suspicious activity,moniter fraud risk,and support data driven decision-making.
-# Key Goals
-* Monitor fraud vs non-fraud transactions
-* Identify high-risk merchant categories
-* Detect suspicious accounts
-* Track fradu trends over time
-* Analyze transactions patterns across regions and hours
+* **Key Goals**
+   * Monitor fraud vs non-fraud transactions
+   * Identify high-risk merchant categories
+   * Detect suspicious accounts
+   * Track fradu trends over time
+   * Analyze transactions patterns across regions and hours
 # 🎯Business Problem
 Financial instittions process millons of transaction daily,makig it difficult to manually detect fraudulent acitivity.
 # The keys challenges include 
@@ -19,25 +19,25 @@ Financial instittions process millons of transaction daily,makig it difficult to
 The dashboards helps fraud analysis quickly detect patterns and investigate anomalies.
  Tooltip and Technologies
 # 🛠Tools & Technologies
-**Tool and purpose**
+* **Tool and purpose**
     * **Python(pandas)**: data preprocessing
     * **MySQL**: data querying
     * **Excel**: initial analysis
     * **Power BI**: dashboard visulaization
     * **GitHub**: project version control
-**Data preparation**
- * **Data cleaning**
-  * converted timestamp column to datetime format
-  * remove duplicate transaction
-  * standardized merchant categories
-  * handled missing values
+* **Data preparation**
+  * **Data cleaning**
+     * converted timestamp column to datetime format
+     * remove duplicate transaction
+     * standardized merchant categories
+     * handled missing values
  * **Feature engineering**
-  * fraud transaction count
-  * non-fraud transaction count
-  * fraud rate percentage
-  * fraud amount
-  * velocity risk score
-  * hourly fraud distribution
+     * fraud transaction count
+     * non-fraud transaction count
+     * fraud rate percentage
+     * fraud amount
+     * velocity risk score
+     * hourly fraud distribution
 # 📊Dataset Information
 * **Dataset Name** : Financial Fraud Transactions
 * **Total Records** : 5 Million Transactions
