@@ -2,7 +2,7 @@
 USE july;
 
 -- financial fraud sample data
-CREATE  TABLE fin_fraud SELECT * FROM financial_fraud LIMIT 25000;
+CREATE TABLE fin_fraud SELECT * FROM financial_fraud LIMIT 25000;
 
 -- Total Transactions
 SELECT COUNT(*) AS total_transactions FROM fin_fraud;
