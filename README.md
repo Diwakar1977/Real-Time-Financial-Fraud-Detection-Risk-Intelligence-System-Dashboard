@@ -41,23 +41,23 @@ The dashboards helps fraud analysis quickly detect patterns and investigate anom
 # 📊Dataset Information
 * **Dataset Name** : Financial Fraud Transactions
 * **Total Records** : 5 Million Transactions
-  * **Key fields**
-     * **transaction_id**: unique ID every transaction
-     * **timestamp**:date and time transaction
-     * **sender_account**: account initiating the transaction 
-     * **receiver_account**: account number of the person receiving money
-     * **amount**: transactions value
-     * **transaction_type**: type of payment method
-     * **merchant_category**: merchant business category
-     * **location**: transaction location
-     * **device_used**: device used to perform the transaction
-     * **is_fraud**: fraud indicator(0 : non-fraud,1 : fraud)
-     * **spending_deviation_score**: detect abnormal purchase patterns 
-     * **velocity_score**: risk score based on transaction frequency
-     * **geo_amomaly_score**: detect location based fraud
-     * **payment_channel**: payment method(UPI,Card,ACH,Wire)
-     * **ip_address**: used during the transaction  
-     * **device_hash**: unique encrypted identifier for the user's device
+* **Key fields**
+  * **transaction_id**: unique ID every transaction
+  * **timestamp**:date and time transaction
+  * **sender_account**: account initiating the transaction
+  * **receiver_account**: account number of the person receiving money
+  * **amount**: transactions value
+  * **transaction_type**: type of payment method
+  * **merchant_category**: merchant business category
+  * **location**: transaction location
+  * **device_used**: device used to perform the transaction
+  * **is_fraud**: fraud indicator(0 : non-fraud,1 : fraud)
+  * **spending_deviation_score**: detect abnormal purchase patterns
+  * **velocity_score**: risk score based on transaction frequency
+  * **geo_amomaly_score**: detect location based fraud
+  * **payment_channel**: payment method(UPI,Card,ACH,Wire)
+  * **ip_address**: used during the transaction
+  * **device_hash**: unique encrypted identifier for the user's device
 # Key performance indicator(KPIs)
 **KPI value**
 * total transaction-5M
