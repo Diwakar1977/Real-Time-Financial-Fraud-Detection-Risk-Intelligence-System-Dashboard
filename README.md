@@ -1,4 +1,4 @@
-# Real-Time Financial Fraud Detection & Risk Intelligence System
+# 💳🚨Real-Time Financial Fraud Detection & Risk Intelligence System
 End-to-end financial fraud detection system analyzing **5M+** transactions using **Python, MySQL, and Power BI**. Implements risk scoring, anomaly detection, and near real-time monitoring to identify high-risk transactions and fraud patterns.
 # 📌Project Overview
 Financial fraud is a major challenge for banks and digital payment systems, leading to significant financial losses and reduced customer trust. With the increasing volume of digital transactions, detecting fraud manually is inefficient and slow.
@@ -123,4 +123,4 @@ This project successfully demonstrates how data analytics can be used to detect 
   * Power BI Documentation
 # 👨‍💻Author
 Diwakar K | Data Analyst (Fresher)
-  * Skills: Python, MySQL, Excel and  Power BI
+  * **Skills:** Python, MySQL, Excel and  Power BI
