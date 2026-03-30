@@ -62,7 +62,7 @@ Performed structured analysis using MySQL:
       SELECT location, SUM(is_fraud=1) 
       FROM fin_fraud 
       GROUP BY location;
-# Fraud Detection Logic
+# 🚨Fraud Detection Logic
 Implemented rule-based fraud detection:
 * **Rules Used:**
     * Velocity Fraud
